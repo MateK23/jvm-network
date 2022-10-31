@@ -27,7 +27,6 @@ public class Main {
 
 
         ObjectOutputStream outputStream = new ObjectOutputStream(clientSocket.getOutputStream());
-        System.out.println("mivige : "+ response);
         if (response.equals("Weather")){
             outputStream.writeObject("Its rainy here");
 

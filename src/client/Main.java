@@ -12,11 +12,6 @@ public class Main {
         ObjectOutputStream outputStream = new ObjectOutputStream(clientSocket.getOutputStream());
         outputStream.writeObject("Weather");
         // data sent
-        boolean loop = true;
-        while(loop){
-            Scanner scanner = new Scanner()
-
-        }
 
 
         ObjectInputStream objectInputStream = new ObjectInputStream(clientSocket.getInputStream());
